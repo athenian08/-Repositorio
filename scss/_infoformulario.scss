@@ -1,0 +1,17 @@
+.infoformulario{
+    height: 650px;
+    width: 500px;
+    margin: 20px;
+    padding: 60px;
+    display: inline-block;
+    border:double $bgcolorformulario;
+   .btn-primary{
+   border-color: $bgcolorboton;
+   background-color: $bgcolorformulario; 
+       .btn-primary:hover {
+        color:  $bgcolorletrabot;
+        background-color: $bgcolorboton;
+        border-color: $bgcolorformulario;
+    }
+  }
+}

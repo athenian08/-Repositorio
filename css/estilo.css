@@ -58,6 +58,21 @@ section {
           margin-right: auto;
           display: block; }
 
+.infoformulario {
+  height: 650px;
+  width: 500px;
+  margin: 20px;
+  padding: 60px;
+  display: inline-block;
+  border: double #ffc0cb; }
+  .infoformulario .btn-primary {
+    border-color: #f4e4a9;
+    background-color: #ffc0cb; }
+    .infoformulario .btn-primary .btn-primary:hover {
+      color: #212529;
+      background-color: #f4e4a9;
+      border-color: #ffc0cb; }
+
 * {
   margin: 0;
   padding: 0;
@@ -85,18 +100,3 @@ h1 {
 
 .footer {
   background-color: #ffc0cb; }
-
-.formulario {
-  height: 650px;
-  width: 500px;
-  margin: 20px;
-  padding: 60px;
-  display: inline-block;
-  border: double #ffc0cb; }
-  .formulario .btn-primary {
-    border-color: #f4e4a9;
-    background-color: #ffc0cb; }
-    .formulario .btn-primary .btn-primary:hover {
-      color: #212529;
-      background-color: #f4e4a9;
-      border-color: #ffc0cb; }
