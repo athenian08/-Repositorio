@@ -1,0 +1,28 @@
+/* Tablet Styles */
+@media only screen and (min-width: 401px ) and (max-width: 960px) {
+    p {
+      font-size: 1.0rem; }
+    .ampliar {
+      width: 200px;
+      height: 200px;
+      margin: 0 auto; }
+     }
+ /* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    p {
+      font-size: 1.0rem; }
+    .ampliar {
+      width: 200px;
+      height: 200px;
+      margin: 0 auto; }
+     }
+  /* iPhone 4 */
+     @media only screen and (-webkit-min-device-pixel-ratio : 1.5), 
+     only screen and (min-device-pixel-ratio : 1.5) {
+    p {
+      font-size: 1.0rem; }
+    .ampliar {
+      width: 500px;
+      height: 500px;
+      margin: 0 auto; }
+     }
